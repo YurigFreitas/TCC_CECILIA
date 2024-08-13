@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif; /* DEFININDO A FONTE DA PÁGINA, MIÓ Q TEM */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3ec1e2;
+    color: #000000;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+/* HEADER*/
+
+#h1header{
+    margin-right: 90px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+}
+#logo{
+    height: 120px;
+    
+}
+
+#suporte{
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu {
+    display: none;
+  }
+nav{
+    margin-left: 120px;
+    background: #333;
+    display: flex;
+    justify-content: end;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* #tituloServicos{
+    
+    margin-left: 370px;
+} */
+
+
+section{
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid #001aff;
+}
+
+
+article {
+    
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: flex-end;
+    margin-top: 200px;
+   
+}
+
+
+
+
+
+
+
+
+
+.border {
+    
+    padding: 10px;
+    margin: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
